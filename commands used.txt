@@ -1,0 +1,13 @@
+nano ccipher.c
+
+chmod +x  ccipher.c
+
+./ccipher
+
+./ccipher -s 5 input.txt
+
+./ccipher -r -s 5 input.txt >> output.txt
+
+./ccipher -n input.txt
+
+./ccipher -n output.txt
